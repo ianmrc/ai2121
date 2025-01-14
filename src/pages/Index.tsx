@@ -20,7 +20,7 @@ const Index = () => {
               AI21 Blackjack Team uses an advanced swarm of AI agents to dominate blackjack. The Scout Agent monitors tables and provides real-time data, 
               the Core Agent evaluates opportunities and determines bets, the Betting Agent executes plays based on optimal strategies, and the Evaluator 
               Agent continuously analyzes performance, ensuring system efficiency and identifying areas for improvement. This dynamic system fuels a 
-              deflationary token model, burning $AI21 with 90% of generated profits.
+              deflationary token model, burning $AIBJ with 90% of generated profits.
             </p>
             <a href="https://ai21.gitbook.io/ai21" target="_blank" rel="noopener noreferrer">
               <Button className="bg-primary hover:bg-primary/90">Learn More</Button>
