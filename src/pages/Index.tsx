@@ -6,6 +6,7 @@ import DataTable from "@/components/DataTable";
 import HandStatsTable from "@/components/HandStatsTable";
 import { Button } from "@/components/ui/button";
 import BetaNotice from "@/components/BetaNotice";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -21,7 +22,9 @@ const Index = () => {
               Agent continuously analyzes performance, ensuring system efficiency and identifying areas for improvement. This dynamic system fuels a 
               deflationary token model, burning $AI21 with 90% of generated profits.
             </p>
-            <Button className="bg-primary hover:bg-primary/90">Learn More</Button>
+            <a href="https://ai21.gitbook.io/ai21" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-primary hover:bg-primary/90">Learn More</Button>
+            </a>
           </div>
         </section>
 
