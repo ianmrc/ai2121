@@ -57,7 +57,7 @@ const HandStatsTable = () => {
         currentHand++;
         
         // Programar la siguiente carga
-        const delay = Math.floor(Math.random() * (28000 - 8000) + 8000);
+        const delay = Math.floor(Math.random() * (14000 - 3000) + 3000);
         setTimeout(loadNextHand, delay);
       }
     };
