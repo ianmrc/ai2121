@@ -37,7 +37,7 @@ const generateTableData = () => {
 };
 
 // Función que se ejecuta cada 2 segundos
-Deno.cron("update-tables", "*/2 * * * * *", async () => {
+Deno.cron("update-tables", "*/4 * * * * *", async () => {
   const tables = generateTableData();
   
   const { error } = await supabase
