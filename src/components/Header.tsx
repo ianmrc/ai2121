@@ -12,15 +12,15 @@ const Header = () => {
           <Link to="/" className="text-sm hover:text-primary transition-colors">
             Home
           </Link>
-          <Link to="/docs" className="text-sm hover:text-primary transition-colors">
+          <a href="https://ai21.gitbook.io/ai21" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-primary transition-colors">
             Docs
-          </Link>
-          <Link to="/v2" className="text-sm hover:text-primary transition-colors">
+          </a>
+          <a href="https://ai21.gitbook.io/ai21" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-primary transition-colors">
             V2
-          </Link>
-          <Link to="/token" className="text-sm hover:text-primary transition-colors">
+          </a>
+          <a href="https://ai21.gitbook.io/ai21/token/token" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-primary transition-colors">
             Token
-          </Link>
+          </a>
         </div>
       </nav>
     </header>
